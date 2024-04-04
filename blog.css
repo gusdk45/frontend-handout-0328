@@ -1,0 +1,49 @@
+.container {
+    width: 800px;
+    margin: auto; /* 중앙 정렬 */
+  }
+  
+  .blog-content {
+   float: left;
+   width: 80%;
+   height: 200px;
+  }
+  
+  .blog-img {
+    float: left;  
+    width: 20%;
+    height: 200px;
+  }
+  
+  .blog-profile {
+    float: left; 
+    width: 60px;
+    border-radius: 100px;
+    padding: 10px;
+  }
+  
+  .blog-name {
+    float: left; 
+  }
+  
+  .name {
+    margin: 15px 0px 3px 0px;
+    font-size: 17px;
+  }
+  
+  .time {
+    font-size: 14px;
+    color: grey;
+    margin: 5px 0px 3px 0px;
+  }
+  
+  .title {
+    margin: 10px;
+    padding-top: 10px;
+  }
+  
+  .content {
+    margin: 10px;
+    color: grey;
+  }
+  
