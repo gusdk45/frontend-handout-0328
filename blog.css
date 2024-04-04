@@ -1,0 +1,55 @@
+.container {
+    width: 800px;
+  }
+
+  /*왼쪽 큰 박스*/
+  .blog-content {
+    width: 80%;
+    height: 200px;
+    float: left;
+  }
+
+  /*오른쪽 큰 박스*/
+  .blog-img {
+    width: 20%;
+    height: 200px;
+    float: left;
+  }
+
+ /*원 이미지 삽입*/
+  .blog-profile {
+    width: 60px;
+    border-radius: 100px;
+    padding: 10px;
+    float: left;
+  }
+
+  /*제목, 시간 포함 박스*/
+  .blog-name {
+    float: left;
+  }
+
+  /*제목: OOO */
+  .name {
+    margin: 15px 0px 3px 0px;
+    font-size: 17px;
+  }
+
+ /*시간: 2024.00.00*/
+  .time {
+    font-size: 14px;
+    color: grey;
+    margin: 5px 0px 3px 0px;
+  }
+
+  /*멋사아기사자~*/
+  .title {
+    margin: 10px;
+    padding-top: 10px;
+  }
+
+ /*블로그 글 목록 만들기~*/
+  .content {
+    margin: 10px;
+    color: grey;
+  }
