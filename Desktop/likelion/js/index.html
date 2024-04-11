@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4주차 실습</title>
+    <link rel="stylesheet" href="./main.css" type="text/css"> 
+</head>
+
+<body>
+    <div id="box" class="alert-box">
+        <P id="title">알림창</P>
+        <button>닫기</button>
+    </div>
+
+    <button onclick="alertBoxID()">버튼1</button>
+    <button onclick="alertBoxPW()">버튼2</button>
+
+</body>
+
+<script>
+    function alertBoxID(){
+        document.getElementById('title').innerHTML='아이디를 입력하세요';
+        document.getElementById('box').style.display = 'block';
+    }
+    function alertBoxPW(){
+        document.getElementById('title').innerHTML='비밀번호를 입력하세요';
+        document.getElementById('box').style.display = 'block';
+    }
+
+</script>
+
+</html>
