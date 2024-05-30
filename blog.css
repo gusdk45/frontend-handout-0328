@@ -1,0 +1,53 @@
+.container {
+    clear:both;
+    width:800px;
+    margin: 20px auto 20px auto;
+}
+
+.blog-content {
+    width:80%;
+    height:200px;
+    float: left;
+    margin-top: 15px;
+}
+
+.blog-img {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+.blog-profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+}
+
+.blog-name {
+    margin-top: 10px;
+    line-height: 0;
+    position: relative;
+    float: left;
+}
+
+.name {
+    font-size: 17px;
+}
+
+.time {
+    font-size: 14px;
+    color: grey;
+}
+
+.title {
+    margin: 10px;
+    padding-top: 20px;
+}
+
+.content {
+    margin: 10px;
+    color: grey;
+}
